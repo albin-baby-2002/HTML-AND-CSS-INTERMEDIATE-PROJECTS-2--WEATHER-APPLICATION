@@ -1,4 +1,4 @@
-import axios from 'axios';
+
 
 
 export function getWeather( lat ,lon , timezone) {
