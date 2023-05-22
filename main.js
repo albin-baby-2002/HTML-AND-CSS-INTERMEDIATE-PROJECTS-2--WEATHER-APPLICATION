@@ -1,5 +1,5 @@
-import { getWeather } from "/weather.js";
-import { iconMap } from "/iconmap.js";
+import { getWeather } from "./weather.js";
+import { iconMap } from "./iconmap.js";
 
 
 getWeather(10, 10 , Intl.DateTimeFormat().resolvedOptions().timeZone).then(renderWeather).catch(e=> {console.log(e),alert("error getting weather")})
