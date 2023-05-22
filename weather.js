@@ -1,4 +1,4 @@
-import axios from "./node_modules/axios.min.js";
+import axios from 'axios';
 
 
 export function getWeather( lat ,lon , timezone) {
